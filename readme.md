@@ -6,6 +6,8 @@ see [G. Marsaglia, Proc. Natl. Acad. Sci. U.S.A. 61, 25 (1968)](http://www.pnas.
 The first part of this Code Kata, is to implement the RANDU algorithm. In a second step we will learn why RANDU is a bad
 choice for statistical calculations or other numerical method, e.g. Monte Carlo simulations.
 
+![render](https://user-images.githubusercontent.com/2394228/126345222-d841e098-a53f-4757-8f5f-b40fc518d7c4.gif)
+
 # Theory
 
 ## Pseudo random number generators
