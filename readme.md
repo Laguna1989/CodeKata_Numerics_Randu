@@ -1,7 +1,6 @@
 # Overview
 
-This is a Code Kata about psuedo random number generators, specifically the RANDU algorithm. For details,
-see [G. Marsaglia, Proc. Natl. Acad. Sci. U.S.A. 61, 25 (1968)](http://www.pnas.org/content/61/1/25).
+This is a Code Kata about psuedo random number generators, specifically the RANDU algorithm.
 
 The first part of this Code Kata, is to implement the RANDU algorithm. In a second step we will learn why RANDU is a bad
 choice for statistical calculations or other numerical method, e.g. Monte Carlo simulations.
@@ -77,3 +76,8 @@ Plot the three values in every line as the `(x, y, z)` coordinates in your prefe
 gnuplot, matlab, ...). 
 
 Reproduce the picture shown at the beginning of this readme.
+
+
+# Further Reading
+* [Peter Young (2013): "Randu: a bad random number generator](http://physics.ucsc.edu/~peter/115/randu.pdf)
+* [G. Marsaglia (1968): "RANDOM NUMBERS FALL MAINLY IN THE PLANES"](http://www.pnas.org/content/61/1/25)
