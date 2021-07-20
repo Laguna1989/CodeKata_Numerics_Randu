@@ -16,7 +16,6 @@ void write_triples_file(std::vector<T>& values)
             << "\n";
     }
 }
-
 TEST_F(RanduTest, WriteTriples)
 {
     std::size_t const N = 3000;
