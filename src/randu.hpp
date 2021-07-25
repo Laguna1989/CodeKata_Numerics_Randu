@@ -12,7 +12,7 @@ public:
     static const std::uint32_t vMax;
 
 private:
-    std::uint32_t m_v{1u};
+    std::uint32_t m_v { 1u };
 };
 
 #endif

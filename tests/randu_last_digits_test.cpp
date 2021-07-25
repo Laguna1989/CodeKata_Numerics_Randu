@@ -1,9 +1,6 @@
 #include "randu.hpp"
 #include "randu_test.h"
-#include <fstream>
 #include <gtest/gtest.h>
-#include <sstream>
-#include <string>
 
 using namespace ::testing;
 
@@ -19,12 +16,12 @@ TEST_F(RanduTest, LastDecimalDigitContainsOnlyOddNumbers)
     FAIL();
 }
 
-TEST_F(RanduTest, LastDecimalDigitContainsOnlyCertainValues)
+TEST_F(RanduTest, LastHexDigitContainsOnlyCertainValues)
 {
     // calculate 5000 pseudo random values with the randu algorithm
 
     // for each value get the last hexadecimal digit
 
-    // verify that only odd digits appear
+    // verify that only certain digits appear
     FAIL();
 }
