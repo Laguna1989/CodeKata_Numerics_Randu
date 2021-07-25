@@ -7,7 +7,6 @@
 
 using namespace ::testing;
 
-
 TEST_F(RanduTest, LastDecimalDigitContainsOnlyOddNumbers)
 {
     // calculate 5000 pseudo random values with the randu algorithm
@@ -15,7 +14,6 @@ TEST_F(RanduTest, LastDecimalDigitContainsOnlyOddNumbers)
     // for each value get the last decimal digit
 
     // verify that only odd digits appear
-
 
     std::size_t const N = 50000;
     std::map<int, int> histo;
@@ -41,13 +39,13 @@ TEST_F(RanduTest, LastDecimalDigitContainsOnlyOddNumbers)
     std::cout << std::endl;
 }
 
-TEST_F(RanduTest, LastDecimalDigitContainsOnlyCertainValues)
+TEST_F(RanduTest, LastHexDigitContainsOnlyCertainValues)
 {
     // calculate 5000 pseudo random values with the randu algorithm
 
     // for each value get the last hex digit
 
-    // verify that only odd digits appear
+    // verify that only certain digits appear
 
     std::size_t const N = 50000;
     std::map<std::string, int> histo;

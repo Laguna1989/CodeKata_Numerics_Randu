@@ -14,7 +14,7 @@ choice for statistical calculations or other numerical method, e.g. Monte Carlo 
 Computers have a hard time with generating random values, as they behave in a deterministic way. However, they can still
 create pseudo random numbers, by making use of some clever algebraic rules.
 
-The RADNU algorithm
+The RANDU algorithm
 
 1. `v[0] = 1` (this is the initial seed)
 2. `vMax = 2**31`
@@ -22,8 +22,7 @@ The RADNU algorithm
 
 At the time when this algorithm was introduced, it could be calculated very quickly, because the modulo operation with a
 power of two could be calculated efficiently. However, RANDU is highly flawed ("a truly horrible random number
-generator"
-, [Donald Knuth, The Art of Computer Programming](https://amzn.to/2teAtd8)), as we will see later on.
+generator", [Donald Knuth, The Art of Computer Programming](https://amzn.to/2teAtd8)), as we will see later on.
 
 # Exercise
 
@@ -68,7 +67,7 @@ digits.
 
 ## Visual representation in multiple dimensions.
 
-For the last nail of the coffin, let's take a look at the values when using the pseudo random values created by RANDU as
+For the last nail in the coffin, let's take a look at the values when using the pseudo random values created by RANDU as
 the coordinates.
 
 The test case `WriteTriples` in the file `tests/randu_visualisation_test.cpp` writes tuples of three out in a text file.
