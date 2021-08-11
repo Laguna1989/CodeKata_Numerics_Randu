@@ -1,8 +1,9 @@
 # Overview
 
-This is a Code Kata about psuedo random number generators, specifically the RANDU algorithm.
+This is a Code Nummy about psuedo random number generators, specifically the RANDU algorithm. Please check out the
+other [Code Nummies](https://github.com/Laguna1989/CodeNummies_Overview).
 
-The first part of this Code Kata, is to implement the RANDU algorithm. In a second step we will learn why RANDU is a bad
+The first part of this Code Nummy, is to implement the RANDU algorithm. In a second step we will learn why RANDU is a bad
 choice for statistical calculations or other numerical method, e.g. Monte Carlo simulations.
 
 ![render](https://user-images.githubusercontent.com/2394228/126345222-d841e098-a53f-4757-8f5f-b40fc518d7c4.gif)
