@@ -15,8 +15,14 @@ bad choice for statistical calculations or other numerical method, e.g. Monte Ca
 Computers have a hard time with generating random values, as they behave in a deterministic way. However, they can still
 create pseudo random numbers, by making use of some clever algebraic rules.
 
-For high quality random numbers, it is recommended to use e.g.
-the [Mersenn Twister 19937](https://www.cplusplus.com/reference/random/mt19937/), which is available staring with C++11.
+Please note:
+
+* If in doubt about a pseudo random number generator, there are already available test frameworks that can be applied.
+  They will detect most common issues. A good example is the BigCrush test
+  from [TestU01](http://simul.iro.umontreal.ca/testu01/tu01.html) test suite.
+* In almost all cases it is advised to use an existing random number generator. A common recommendation is
+  the [Mersenn Twister 19937](https://www.cplusplus.com/reference/random/mt19937/), which is available staritng with
+  C++11.
 
 ## The RANDU algorithm
 
@@ -87,4 +93,5 @@ Reproduce the picture shown at the beginning of this readme.
 
 * [Peter Young (2013): "Randu: a bad random number generator](http://physics.ucsc.edu/~peter/115/randu.pdf)
 * [G. Marsaglia (1968): "RANDOM NUMBERS FALL MAINLY IN THE PLANES"](http://www.pnas.org/content/61/1/25)
+* [TestU01](http://simul.iro.umontreal.ca/testu01/tu01.html)
 * [Mersenn Twister 19937 (cplusplus.com)](https://www.cplusplus.com/reference/random/mt19937/)
