@@ -1,11 +1,11 @@
 class Randu:
-    vMax = 1
+    vMax = 2 ** 31
 
     def __init__(self):
-        pass
+        self.v = 1
 
     def get(self):
-        pass
+        return self.v
 
     def next(self):
-        pass
+        self.v = (65539 * self.v) % Randu.vMax
